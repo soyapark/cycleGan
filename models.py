@@ -68,7 +68,7 @@ class CycleGenerator(nn.Module):
         self.conv2 = conv(conv_dim, 64, 4)
 
         # 2. Define the transformation part of the generator
-        self.resnet_block = ResnetBlock(conv_dim)
+        self.resnet_block = ResnetBlock(64)
 
         # 3. Define the decoder part of the generator (that builds up the output image from features)
         self.deconv1 = deconv(64, 32, 4)
