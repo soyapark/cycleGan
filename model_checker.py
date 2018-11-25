@@ -35,7 +35,7 @@ import numpy as np
 
 # Local imports
 import utils
-from models import DCGenerator, DCDiscriminator, CycleGenerator
+from models import DCDiscriminator, CycleGenerator
 
 
 RANDOM_SEED = 11
